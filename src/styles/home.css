@@ -1,0 +1,78 @@
+@import url("style.css");
+
+.restaurant-intro {
+  padding-bottom: 2rem;
+}
+
+.restaurant-img {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.intro-header {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.intro-header > .first-line,
+.intro-header > .second-line {
+  display: block;
+  color: white;
+}
+
+.menu-btn {
+  position: absolute;
+  bottom: 8rem;
+  left: 18%;
+
+  padding: 1.5rem 3rem;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 1rem;
+
+  background-color: var(--secondaryColor);
+  cursor: pointer;
+
+  color: white;
+}
+
+.menu-btn:hover {
+  background-color: var(--tertiaryColor);
+}
+
+.home-section > img {
+  width: 40vw;
+  height: auto;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: var(--secondaryColor);
+  font-weight: bold;
+}
+
+.section-description {
+  width: 40vw;
+}

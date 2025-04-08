@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+:root {
+  --backgroundColor: #cfd2c6;
+  --navbarColor: #060606;
+  --headerColor: #1b1d16;
+  --primaryColor: #36392d;
+  --secondaryColor: #6c7359;
+  --tertiaryColor: #819257;
+  --footerColor: #b7bca9;
+  --textColor: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--textColor);
+}
+
+body {
+  background-color: var(--backgroundColor);
+
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+.name {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: white;
+
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.nav-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: var(--navbarColor);
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  padding: 0.5rem 2rem;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-btn-container > button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+
+  border: none;
+
+  background-color: var(--navbarColor);
+  cursor: pointer;
+
+  color: white;
+}
+
+.nav-btn-container > button:hover {
+  background-color: var(--primaryColor);
+}
+
+#content {
+  background-color: var(--backgroundColor);
+}
+
+.footer {
+  background-color: var(--footerColor);
+  display: flex;
+  padding: 2rem 7rem;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+.footer > .name {
+  size: 2rem;
+  color: var(--primaryColor);
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.email {
+  color: var(--primaryColor);
+}
+
+.socials > img {
+  height: 2rem;
+  width: auto;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+li {
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}

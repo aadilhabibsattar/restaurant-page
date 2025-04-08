@@ -1,0 +1,121 @@
+@import url(style.css);
+
+.contact-title {
+  margin: 7rem 0rem 3rem 0rem;
+  display: flex;
+  justify-content: center;
+
+  color: var(--secondaryColor);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-container {
+  padding: 0rem 6rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.contact--info-right-section {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+svg {
+  width: 2rem;
+  fill: var(--secondaryColor);
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  aspect-ratio: 1;
+  height: 90vh;
+}
+
+.form-title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 1.3rem;
+}
+
+.message-icon > svg {
+  width: 3rem;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-element-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 120%;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.form-element-container:first-of-type {
+  margin-top: 0.5rem;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3cbfe7;
+  outline: none;
+  box-shadow: 0 0 5px rgba(60, 203, 231, 0.5);
+}
+
+.submit-btn {
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: var(--secondaryColor);
+  cursor: pointer;
+
+  color: white;
+}

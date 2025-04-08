@@ -1,0 +1,50 @@
+@import url(style.css);
+
+.food-img {
+  width: 25vw;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section-title {
+  margin-top: 5rem;
+  margin-left: 13rem;
+
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondaryColor);
+}
+
+.menu-section-title:first-of-type {
+  margin-top: 8rem;
+}
+
+.food-item-container {
+  padding: 1rem 13rem;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.food-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.food-description {
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+
+  color: rgb(59, 106, 53);
+}
